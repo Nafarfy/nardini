@@ -145,9 +145,15 @@
 
   /* Contact us */
 
+  #contact-us {
+    text-align: center;
+  }
+
   #contact-us .input-item {
     max-width: 300px;
-    
+  }
+  #contact-us h2 {
+    text-align: center;
   }
 }
 
