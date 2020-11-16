@@ -1,0 +1,182 @@
+/* Tabs */
+@media(max-width: 1000px) {
+
+  /* Header */
+  #header {
+    padding: 3rem 2rem 0 2rem;
+  }
+
+  #header .white-box {
+    max-width: 600px;
+    margin: 8rem auto 0 auto;
+  }
+
+  #header .white-box img {
+    width: 350px;
+  }
+
+  /* Spirits */
+  #spirits { 
+    min-height: 1500px;
+  }
+
+  #spirits .bottles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Section Story */
+  #enrico { 
+    padding: 0 2rem;
+    min-height: 1430px;
+  }
+
+  #enrico .entico-content {
+    flex-direction: column;
+  }
+
+  #enrico .entico-content .images {
+    max-width: 620px;
+    margin-top: 2rem;
+    order: 2;
+  } 
+
+  #enrico .entico-content .images img {
+    width: 100%;
+  }
+
+  #enrico .entico-content .images .under {
+    width: 70%;
+  }
+
+  #enrico .entico-content .text {
+    margin: 9rem 0 0 0;
+    width: 100%;
+  }
+
+  #enrico .entico-content .text h2 {
+    font-size: 50px;
+  }
+
+  #enrico .entico-content .text p {
+    font-size: 20px;
+  }
+
+  #enrico .entico-content .images:after {
+    position: inherit;
+  }
+
+  #enrico .entico-content .slider-squares {
+    top: 100px;
+  }
+}
+
+/* Phones */
+@media(max-width: 760px) {
+  #header .img-logo {
+    margin: 0 auto;
+  }
+
+  #header .white-box {
+    padding: 2rem;
+    margin: 3rem auto 0 auto;
+  }
+
+  #header .white-box h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  #header .white-box img {
+    display: none;
+  }
+
+  #header:after {
+    right: -18px;
+  }
+
+  #header .white-box:before {
+    display: none;
+  }
+
+  /* Section Story */
+  #enrico { 
+    padding: 0 1rem;
+    min-height: 1530px;
+  }
+
+  #enrico .entico-content .images {
+    max-width: 100%;
+  } 
+
+  #enrico .entico-content .text {
+    margin-top: 4rem; 
+  }
+
+  #enrico .entico-content .slider-squares {
+    top: 100px;
+    right: 10px;
+  }
+
+  /* Spirits */
+  #spirits { 
+    min-height: 3080px;
+  }
+
+  #spirits .bottles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #spirits .bottles div {
+    margin-top: 3rem;
+  }
+
+  #spirits .title {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #spirits .title .bottom-line {
+    width: 330px;
+  }
+
+  /* Contact us */
+
+  #contact-us .input-item {
+    max-width: 300px;
+    
+  }
+}
+
+/* Landscape */
+@media(max-height: 420px) {
+  #header {
+    min-height: 700px;   
+  }
+}
+
+/* Smaller phones */
+@media(max-width: 320px) {
+  #header .white-box {
+    padding: 1rem;
+  }
+
+  #header .white-box p {
+    margin-top: 2rem;
+  }
+
+  #enrico .entico-content .text p {
+    font-size: 18px;
+  }
+
+  #spirits .title .bottom-line {
+    width: 300px;
+  }
+
+  #contact-us h2 {
+    font-size: 30px;
+  }
+}
